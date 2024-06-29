@@ -14,7 +14,7 @@
         <img v-for="logo in logos" :src="logo" loading="lazy" />
       </div>
     </div>
-    <div class="flex py-4 px-12 flex-1 text-sm flex-row justify-between">
+    <div class="flex py-4 px-16 flex-1 text-sm flex-row justify-between">
       <div class="flex flex-1 flex-row *:basis-72">
         <ul
           v-for="links in linkColumns"
@@ -30,18 +30,18 @@
 
       <div class="flex items-start justify-end">
         <div
-          class="py-2 px-4 border border-white cursor-pointer flex items-center"
+          class="py-2 px-8 border border-white cursor-pointer flex items-center"
         >
-          <span class="text-xl i-material-symbols-language mr-2"></span> English
+          <span class="text-xl i-material-symbols-language mr-2" /> English
         </div>
       </div>
     </div>
-    <div class="flex py-12 px-12 flex-row justify-between items-center">
+    <div class="flex py-12 px-16 justify-between items-center">
       <img
         src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy-inverted.svg"
         class="w-24"
       />
-      <span class="text-xs">© 2024 Udemy, Inc.</span>
+      <p class="text-xs">©2024 Udemy, Inc.</p>
     </div>
   </div>
 </template>
@@ -49,7 +49,6 @@
 <script setup lang="ts">
 const logos = ref([
   "https://s.udemycdn.com/partner-logos/v4/nasdaq-light.svg",
-  "https://s.udemycdn.com/partner-logos/v4/volkswagen-light.svg",
   "https://s.udemycdn.com/partner-logos/v4/box-light.svg",
   "https://s.udemycdn.com/partner-logos/v4/netapp-light.svg",
   "https://s.udemycdn.com/partner-logos/v4/eventbrite-light.svg",
@@ -118,6 +117,10 @@ const linkColumns = ref([
     {
       href: "/",
       text: "Privacy policy",
+    },
+    {
+      href: "/",
+      text: "Cookie settings",
     },
     {
       href: "/",
