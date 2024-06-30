@@ -68,8 +68,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
 import { useIntervalFn } from "@vueuse/core";
+import { ref } from "vue";
 const tip = ref(true);
 const closeTip = () => {
   tip.value = false;
@@ -88,7 +88,3 @@ const { pause } = useIntervalFn(() => {
   countDown.value = { hours, minutes, seconds };
 }, 1000);
 </script>
-
-import { useIntervalFn } from "@vueuse/core" import { ref } from "vue" import {
-useIntervalFn } from "@vueuse/core" import { ref } from "vue" import {
-useIntervalFn } from "@vueuse/core" import { ref } from "vue"

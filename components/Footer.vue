@@ -1,7 +1,7 @@
 <template>
   <div id="footer" class="bg-dark pb-12 flex flex-col text-white">
     <div
-      class="flex py-3 px-12 flex-row justify-between items-center flex-wrap border-b border-gray-600"
+      class="flex py-3 px-16 flex-row justify-between items-center flex-wrap border-b border-gray-600"
     >
       <div class="text-lg font-bold flex-1">
         Top companies choose
